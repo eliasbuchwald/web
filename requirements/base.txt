@@ -1,10 +1,10 @@
 bs4
 ccxt
 cryptocompare==0.6
-cryptography==2.3
+cryptography==3.2
 celery==4.4.0
 django-celery-beat==1.1.1
-django==2.2.24
+django==3.2.15
 django-csp==3.7
 django-cors-headers==2.4.0
 django-filter==2.0.0
@@ -15,10 +15,10 @@ gitterpy
 gunicorn
 matplotlib
 Markdown==3.2.1
-reportlab==3.5.6
+reportlab==3.5.55
 requests
 requests_oauthlib
-Pillow==4.0.0
+Pillow==9.2.0
 premailer
 populus
 psycopg2-binary==2.7.5
@@ -47,7 +47,7 @@ jsondiff==1.1.1
 social-auth-app-django==4.0.0
 django-ipware==2.0.2
 geoip2==2.8.0
-django-silk==2.0.0
+django-silk==4.0.0
 django-extensions==2.2.1
 ipdb==0.13.9
 django-autotranslate==1.1.1
@@ -71,7 +71,7 @@ git+https://github.com/gitcoinco/django-cacheops.git#egg=django-cacheops
 django-redis==4.10.0
 collectfast==0.6.2
 django-health-check==3.7.0
-elastic-apm==3.0.1
+elastic-apm==5.1.0
 mkdocs==1.0.4
 pymdown-extensions==5.0
 mkdocs-material==3.0.4
@@ -109,7 +109,7 @@ pyPEG2==2.15.2
 base58==2.1.0
 libnacl==1.7.2
 pyaes==1.6.1
-numpy==1.19.5
+numpy==1.22.2
 rjsmin==1.1.0
 rcssmin==1.0.6
 libsass==0.20.1
