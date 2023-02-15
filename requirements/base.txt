@@ -18,7 +18,7 @@ Markdown==3.2.1
 reportlab==3.5.6
 requests
 requests_oauthlib
-Pillow==4.0.0
+Pillow==9.2.0
 premailer
 populus
 psycopg2-binary==2.7.5
@@ -90,7 +90,7 @@ django-oauth-toolkit
 ddtrace
 metadata-parser==0.10.0
 redis==3.3.11
-wiki==0.7.3
+wiki==0.7.9
 django-bulk-update
 pdfrw
 django-admin-sortable2==0.7.6
@@ -117,3 +117,6 @@ graphqlclient==0.2.4
 docutils==0.17.1
 unidecode==1.2.0
 drf-flex-fields==0.9.1
+certifi>=2022.12.7 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=2.2.3 # not directly required, pinned by Snyk to avoid a vulnerability
