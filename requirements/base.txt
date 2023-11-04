@@ -4,7 +4,7 @@ cryptocompare==0.6
 cryptography==2.3
 celery==4.4.0
 django-celery-beat==1.1.1
-django==2.2.24
+django==3.2.23
 django-csp==3.7
 django-cors-headers==2.4.0
 django-filter==2.0.0
@@ -117,3 +117,5 @@ graphqlclient==0.2.4
 docutils==0.17.1
 unidecode==1.2.0
 drf-flex-fields==0.9.1
+tornado>=6.3.3 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
