@@ -8,10 +8,14 @@ coverage==5.5
 isort==4.3.21
 responses==0.10.4
 requests_mock==1.7.0
-idna==2.7
+idna==3.7
 django-test-plus==1.1.1
 git+https://github.com/google/yapf.git#egg=yapf
 django-debug-toolbar
 ipfshttpclient==0.6.0
 dj_static==0.0.6
 livereload==2.6.3
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+sqlparse>=0.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
